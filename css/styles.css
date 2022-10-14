@@ -162,12 +162,14 @@ body {
 /* Hero */
 
 .hero {
-  padding: 0 0 94px 0;
+  display: block;
+
+  padding: 0;
   text-align: center;
 }
 
 .overlay {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -179,7 +181,7 @@ body {
     url('../images/bg-hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {
