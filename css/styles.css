@@ -18,6 +18,7 @@
   --font-family-primary: Roboto;
   --font-family-sekondary: Raleway;
   --color-text-contact: rgba(255, 255, 255, 0.6);
+  --background-color-social: #afb1b8;
 }
 
 body {
@@ -390,15 +391,24 @@ body {
   align-items: center;
   width: 206px;
   height: 44px;
-
   gap: 10px;
 }
 
-.social-icon {
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: var(--background-color-social);
+  background-color: var(--color-white);
+  border-radius: 50%;
 }
+.social-link:hover {
+  fill: var(--color-white);
+  background-color: var(--accent-color);
+}
+
 /* Footer */
 .footer {
   padding-top: 0;
