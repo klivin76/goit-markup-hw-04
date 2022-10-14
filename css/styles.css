@@ -162,15 +162,13 @@ body {
 /* Hero */
 
 .hero {
-  display: block;
-
   padding: 0;
   text-align: center;
 }
 
 .overlay {
   max-width: 1600px;
-  height: 600px;
+  min-height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
