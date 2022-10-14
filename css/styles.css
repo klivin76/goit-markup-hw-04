@@ -167,7 +167,6 @@ body {
 }
 
 .overlay {
-  max-width: 100%;
   width: 1600px;
   height: 600px;
   margin-left: auto;
