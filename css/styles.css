@@ -378,9 +378,27 @@ body {
   margin-bottom: 30px;
   gap: 16px;
 }
-.social-icons {
+
+.social-team {
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 44px;
+
+  gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Footer */
 .footer {
   padding-top: 0;
