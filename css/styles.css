@@ -19,6 +19,7 @@
   --font-family-sekondary: Raleway;
   --color-text-contact: rgba(255, 255, 255, 0.6);
   --background-color-social: #afb1b8;
+  --border-color-header: #ececec;
 }
 
 body {
@@ -36,7 +37,7 @@ body {
 /* Лого */
 
 .header {
-  border: 1px solid #ececec;
+  border: 1px solid var(--border-color-header);
 }
 
 .container-header {
@@ -408,7 +409,45 @@ body {
   fill: var(--color-white);
   background-color: var(--accent-color);
 }
+/* Regular customers */
+.regular-customers {
+  padding: 94px 0;
+  text-align: center;
+}
+.container-customers {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.title-customers {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.customets-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  fill: var(--background-color-social);
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color-social);
+  border-radius: 4px;
+}
+.customers-link:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 /* Footer */
 .footer {
   padding-top: 0;
