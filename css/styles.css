@@ -33,6 +33,7 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 /* Лого */
@@ -637,6 +638,7 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid var(--border-color-portfolio);
+  text-decoration: none;
 }
 
 .portfolio-link:hover,
