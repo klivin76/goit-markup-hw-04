@@ -24,7 +24,6 @@
 }
 
 body {
-  width: 1600px;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -321,7 +320,12 @@ body {
 /* Section Наша команда */
 
 .section-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
   padding: 94px 0;
+  margin: 0 auto;
   text-align: center;
   background-color: var(--background-color-sekondary);
 }
@@ -381,28 +385,25 @@ body {
   line-height: 1.19;
 }
 
-.social-team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 206px;
-  height: 44px;
-  margin-bottom: 30px;
-  gap: 16px;
-}
-
-.social-team {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .social-logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 206px;
   height: 44px;
   gap: 10px;
+}
+
+.social-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 44px;
+  gap: 16px;
 }
 
 .social-link {
