@@ -24,6 +24,7 @@
 }
 
 body {
+  width: 1600px;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -39,6 +40,12 @@ body {
 /* Лого */
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+
+  margin: 0 auto;
   border: 1px solid var(--border-color-header);
 }
 
@@ -48,13 +55,11 @@ body {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  height: 80px;
   padding: 0 15px;
 }
 
 .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
 
   font-family: var(--font-family-sekondary);
@@ -83,7 +88,7 @@ body {
 
 .nav-site {
   display: flex;
-  padding: 32px 0;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -120,12 +125,12 @@ body {
   max-width: 1200px;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin: 0 auto;
+  margin: 0 auto 0 318px;
   text-align: center;
 }
 .nav {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .nav-contact {
@@ -135,7 +140,7 @@ body {
 }
 .icon-header {
   margin-right: 10px;
-  margin-left: auto;
+
   fill: currentColor;
 }
 .icon-header:hover {
@@ -143,7 +148,9 @@ body {
 }
 
 .nav .item-header {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 32px 0;
   color: var(--text-color);
 
@@ -162,15 +169,14 @@ body {
 /* Hero */
 
 .hero {
-  padding: 0;
-  text-align: center;
-}
-
-.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -181,14 +187,18 @@ body {
   background-position: center;
   background-size: cover;
 }
+.hero-list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 200px auto;
+}
 
 .hero-title {
   max-width: 696px;
-  padding-top: 200px;
-  margin-top: 0;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+
+  margin: 0 auto;
+
   color: var(--color-white);
 
   font-weight: 900;
@@ -203,7 +213,7 @@ body {
 
   min-width: 216px;
   padding: 10px 32px;
-  margin-bottom: 200px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 
@@ -227,7 +237,7 @@ body {
 
 /* Section Переваги */
 .section-benefits {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 .container-benefits {
@@ -238,7 +248,6 @@ body {
 }
 .section-title {
   display: flex;
-  padding-bottom: 24px;
   gap: 30px;
 }
 
